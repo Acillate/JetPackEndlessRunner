@@ -1874,7 +1874,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &763106420
 RectTransform:
   m_ObjectHideFlags: 0
@@ -3421,6 +3421,7 @@ MonoBehaviour:
   playerMovement: {fileID: 1571127122}
   coinText: {fileID: 387754400}
   coins: 0
+  collectedCoins: 0
 --- !u!114 &1571127122
 MonoBehaviour:
   m_ObjectHideFlags: 0
