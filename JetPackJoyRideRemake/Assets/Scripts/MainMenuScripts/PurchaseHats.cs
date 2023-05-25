@@ -10,6 +10,8 @@ public class PurchaseHats : MonoBehaviour
     private GameObject[] Hats;
     private int playerCoins;
     private string hatName;
+
+
     private string playerHat;
     private GameObject playerHatObject;
     private string SaveHatName;
@@ -41,7 +43,5 @@ public class PurchaseHats : MonoBehaviour
             playerHatObject.SetActive(true);
             GameManager.HatName = playerHatObject.name;
         }
-    } 
-
-   
+    }
 }

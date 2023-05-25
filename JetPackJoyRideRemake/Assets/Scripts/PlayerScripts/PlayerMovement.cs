@@ -26,6 +26,11 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField]
     PlayerCollision playerCollision;
     private bool saveData = false;
+    [SerializeField] public GameObject deathScreen;
+    [SerializeField] private GameObject[] disableOnDeath;
+    [SerializeField] private Text deathScreenCoins;
+    [SerializeField] private Text deathScreenDistance;
+    [SerializeField] private Text deathScreenHighScore;
 
     // Start is called before the first frame update
     void Start()
@@ -61,6 +66,17 @@ public class PlayerMovement : MonoBehaviour
                     anim.SetBool("Jumping", false);
                 }
             
+            }
+        }
+
+        if(deathScreen.activeSelf)
+        {
+            deathScreenCoins.text = "   : " + playerCollision.collectedCoins;
+            deathScreenDistance.text = "Distance: " + Mathf.FloorToInt(distance).ToString();
+            deathScreenHighScore.text = "HighScore: " + PlayerPrefs.GetInt("Distance", 0);
+            for (int i = 0; i < disableOnDeath.Length; i++)
+            {
+                disableOnDeath[i].SetActive(false);
             }
         }
         
