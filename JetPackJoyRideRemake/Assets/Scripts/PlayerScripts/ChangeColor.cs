@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ChangeColor : MonoBehaviour
 {
@@ -9,7 +10,11 @@ public class ChangeColor : MonoBehaviour
     [SerializeField] string color;
 
     private void Start() {
-        changeColorOfPlayer(color);
+        if(SceneManager.GetActiveScene().name == "GamePlayScene"){
+            changeColorOfPlayer(GameManager.colorName);
+        }else{
+            changeColorOfPlayer(color);
+        }
     }
     public void changeColorOfPlayer(string newColor){
         Color MyColour = Color.clear; ColorUtility.TryParseHtmlString (newColor, out MyColour);

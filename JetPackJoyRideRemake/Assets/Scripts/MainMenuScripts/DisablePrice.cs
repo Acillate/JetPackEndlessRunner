@@ -15,8 +15,8 @@ public class DisablePrice : MonoBehaviour
     [SerializeField] GameObject showerHatPrice;
     [SerializeField] GameObject policeHatPrice;
     [SerializeField] GameObject pillboxHatPrice;
-    public void RemovePriceTags()
-    {
+
+    private void Update() {
         if(PlayerPrefs.GetInt("CowboyHat", 0) == 1){cowboyHatPrice.SetActive(false);}
         if(PlayerPrefs.GetInt("MinerHat", 0) == 1){minerHatPrice.SetActive(false);}
         if(PlayerPrefs.GetInt("Crown", 0) == 1){crownHatPrice.SetActive(false);}
@@ -28,5 +28,5 @@ public class DisablePrice : MonoBehaviour
         if(PlayerPrefs.GetInt("ShowerCap", 0) == 1){showerHatPrice.SetActive(false);}
         if(PlayerPrefs.GetInt("PoliceCap", 0) == 1){policeHatPrice.SetActive(false);}
         if(PlayerPrefs.GetInt("PillboxHat", 0) == 1){pillboxHatPrice.SetActive(false);}
-    } 
+    }
 }
