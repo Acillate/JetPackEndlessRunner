@@ -10,7 +10,7 @@ public class PlayerAtMaxHeight : MonoBehaviour
     }
     private void LateUpdate() {
         Vector3 viewPos = transform.position;
-        viewPos.y = Mathf.Clamp(viewPos.y, -4.67f, 6);
+        viewPos.y = Mathf.Clamp(viewPos.y, -6.8f, 4f);
         transform.position = viewPos;
     }
 }

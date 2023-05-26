@@ -59,7 +59,7 @@ public class PlayerMovement : MonoBehaviour
                 
             }
             if(!inAir){
-                if(transform.position.y > -4.51){
+                if(transform.position.y > -6.8){
                     transform.position += new Vector3(0, downSpeed * 2 * Time.deltaTime, 0);
                 }else{
                     anim.SetBool("Grounded", true);
