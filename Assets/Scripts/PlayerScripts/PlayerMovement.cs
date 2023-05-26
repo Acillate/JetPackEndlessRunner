@@ -31,6 +31,8 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private Text deathScreenCoins;
     [SerializeField] private Text deathScreenDistance;
     [SerializeField] private Text deathScreenHighScore;
+    [SerializeField] private GameObject jetPackBoost1;
+    [SerializeField] private GameObject jetPackBoost2;
 
     // Start is called before the first frame update
     void Start()
@@ -52,6 +54,8 @@ public class PlayerMovement : MonoBehaviour
                 anim.SetBool("Jumping", true);
                 anim.SetBool("Grounded", false);
                 inAir = true;
+                jetPackBoost1.SetActive(true);
+                jetPackBoost2.SetActive(true);
                 transform.position += new Vector3(speed * Time.deltaTime , upSpeed * Time.deltaTime, 0);
             }else{
                 inAir = false;
@@ -59,6 +63,8 @@ public class PlayerMovement : MonoBehaviour
                 
             }
             if(!inAir){
+                jetPackBoost1.SetActive(false);
+                jetPackBoost2.SetActive(false);
                 if(transform.position.y > -6.8){
                     transform.position += new Vector3(0, downSpeed * 2 * Time.deltaTime, 0);
                 }else{
