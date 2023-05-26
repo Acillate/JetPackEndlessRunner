@@ -3282,6 +3282,69 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1471282035}
   m_CullTransparentMesh: 1
+--- !u!1 &1526750988
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1526750990}
+  - component: {fileID: 1526750989}
+  m_Layer: 0
+  m_Name: EquipCosmetics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1526750989
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526750988}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e36144140635974995f0aa4b72b7e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hats:
+  - {fileID: 1656243484}
+  - {fileID: 1339006582}
+  - {fileID: 761088141}
+  - {fileID: 1918337688}
+  - {fileID: 374137606}
+  - {fileID: 1660295511}
+  - {fileID: 81490398}
+  - {fileID: 182309979}
+  - {fileID: 206508071}
+  - {fileID: 2006072097}
+  - {fileID: 1399565410}
+  body:
+  - {fileID: 5522425056912372761}
+  - {fileID: 2891284895205548423}
+  - {fileID: 7598652631820743978}
+  - {fileID: 7611000747007695647}
+  - {fileID: 4104068932394919208}
+  - {fileID: 1085963125065709693}
+--- !u!4 &1526750990
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1526750988}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1284.2474, y: 1.5241935, z: -45.17393}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 14
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1545845643
 GameObject:
   m_ObjectHideFlags: 0
@@ -7120,7 +7183,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5489330798695537852}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 07dcbeb64fc49b744a56217602b79bfe, type: 3}
   m_Name: 
@@ -7145,7 +7208,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5489330798695537852}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 6783c88f8d03a4f479b3eeda85574382, type: 3}
   m_Name: 

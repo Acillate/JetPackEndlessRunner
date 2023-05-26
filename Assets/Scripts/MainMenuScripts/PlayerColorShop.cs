@@ -7,9 +7,6 @@ public class PlayerColorShop : MonoBehaviour
 {
     private int playerCoins;
     private string colorName;
-    [SerializeField]private GameObject Player;
-    private string SaveHatName;
-    private string buttonTag;
     
    
     private void Start() {
@@ -19,18 +16,13 @@ public class PlayerColorShop : MonoBehaviour
         colorName = name;
     }
     public void BuyColor(int cost){                  
-        if(PlayerPrefs.GetInt(colorName, 0) == 1){EquipColor(); return;}
-        if(playerCoins >= cost){
+        if(playerCoins >= cost && PlayerPrefs.GetInt(colorName, 0) != 1){
             PlayerPrefs.SetInt(colorName, 1);
             PlayerPrefs.SetInt("Coins", PlayerPrefs.GetInt("Coins", 0) - cost);
         }     
     }
-    public void EquipColor(){        
-        ChangeColor changeColor = Player.GetComponent<ChangeColor>();
-        changeColor.changeColorOfPlayer(GameManager.colorName);
-    } 
 
-    public void GetButton(Button button){
-        GameManager.colorName = button.tag;
+    public void changeColor(int colorNumber){
+        PlayerPrefs.SetInt("EquippedColor", colorNumber);
     }
 }

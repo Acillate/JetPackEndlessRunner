@@ -366,18 +366,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 33173889}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -390,7 +378,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -838,18 +838,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 111925934}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -862,7 +850,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1155,18 +1155,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 187047137}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -1179,7 +1167,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1425,18 +1425,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 193957875}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -1449,7 +1437,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -1775,18 +1775,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 236061813}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -1799,7 +1787,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -2125,24 +2125,12 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
+        m_MethodName: BuyHat
+        m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerPoliceCap
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2889830483828447468}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
+          m_IntArgument: 1500
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2154,7 +2142,19 @@ MonoBehaviour:
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 1500
+          m_IntArgument: 10
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -2496,18 +2496,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 354427761}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -2520,7 +2508,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -3261,36 +3261,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerCowboyHat
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1608539757}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 1
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -3477,7 +3477,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 13
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &620800943
 Transform:
@@ -3609,36 +3609,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerMinerHat
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 3995296624082329871}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -4435,7 +4435,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 20
+  m_RootOrder: 21
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &738978862
 GameObject:
@@ -5375,36 +5375,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerShowerCap
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 555710075402250565}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 9
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -6086,7 +6086,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 14
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &994218925
 GameObject:
@@ -6377,36 +6377,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerPillboxHat
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 3557054987604827561}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1500
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 11
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7000,7 +7000,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 16
+  m_RootOrder: 17
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1092252592
 GameObject:
@@ -7099,36 +7099,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerPajamaHat
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 7674676157157041969}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 7
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -7883,18 +7883,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1292301791}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -7907,7 +7895,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 3
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8089,7 +8089,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 21
+  m_RootOrder: 22
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1399332401
 GameObject:
@@ -8700,7 +8700,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 17
+  m_RootOrder: 18
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1496578084
 GameObject:
@@ -8888,11 +8888,11 @@ MonoBehaviour:
       m_Calls:
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
+        m_MethodName: EquipColor
+        m_Mode: 1
         m_Arguments:
-          m_ObjectArgument: {fileID: 1496690819}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
@@ -8900,7 +8900,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -8999,6 +9011,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 190ab65edb4f6204e99b001b55dfb6bc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Coins: 0
 --- !u!114 &1506703685
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9171,36 +9184,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerVikingHelmet
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 2164884496485815098}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 100
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -9817,7 +9830,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 18
+  m_RootOrder: 19
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1662437143
 GameObject:
@@ -10087,7 +10100,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 19
+  m_RootOrder: 20
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1693786841
 GameObject:
@@ -10657,7 +10670,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 15
+  m_RootOrder: 16
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1783004577
 GameObject:
@@ -10756,36 +10769,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerSombrero
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 5367422085931762345}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 1000
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 8
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11358,36 +11371,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerMagicianHat
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1831145847}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 500
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 5
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -11708,36 +11721,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerMustache
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 996605736734608077}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 500
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 6
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12138,18 +12151,6 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: GetButton
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 1987954760}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.UI.Button, UnityEngine.UI
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 545600736}
-        m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
         m_MethodName: BuyColor
         m_Mode: 3
         m_Arguments:
@@ -12162,7 +12163,19 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 545600736}
         m_TargetAssemblyTypeName: PlayerColorShop, Assembly-CSharp
-        m_MethodName: EquipColor
+        m_MethodName: changeColor
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 2
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedColor
         m_Mode: 1
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
@@ -12662,36 +12675,36 @@ MonoBehaviour:
         m_CallState: 2
       - m_Target: {fileID: 1134387148}
         m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: EnablePlayerHat
-        m_Mode: 5
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: PlayerCrown
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
-        m_MethodName: SetHatObject
-        m_Mode: 2
-        m_Arguments:
-          m_ObjectArgument: {fileID: 621229967}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
-      - m_Target: {fileID: 1134387148}
-        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
         m_MethodName: BuyHat
         m_Mode: 3
         m_Arguments:
           m_ObjectArgument: {fileID: 0}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
           m_IntArgument: 500
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 1134387148}
+        m_TargetAssemblyTypeName: PurchaseHats, Assembly-CSharp
+        m_MethodName: changeHat
+        m_Mode: 3
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 4
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
+      - m_Target: {fileID: 2119581103}
+        m_TargetAssemblyTypeName: EquipCosmetics, Assembly-CSharp
+        m_MethodName: CheckEquippedHat
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
           m_FloatArgument: 0
           m_StringArgument: 
           m_BoolArgument: 0
@@ -12835,6 +12848,69 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2117097527}
   m_Mesh: {fileID: 4300000, guid: 5f9ee1799e7f21548ba0dd65ac83ea7f, type: 3}
+--- !u!1 &2119581102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2119581104}
+  - component: {fileID: 2119581103}
+  m_Layer: 0
+  m_Name: EquipCosmetics
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &2119581103
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119581102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e36144140635974995f0aa4b72b7e46, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  hats:
+  - {fileID: 5367422085931762345}
+  - {fileID: 555710075402250565}
+  - {fileID: 2889830483828447468}
+  - {fileID: 3557054987604827561}
+  - {fileID: 7674676157157041969}
+  - {fileID: 996605736734608077}
+  - {fileID: 3995296624082329871}
+  - {fileID: 621229967}
+  - {fileID: 2164884496485815098}
+  - {fileID: 1831145847}
+  - {fileID: 1608539757}
+  body:
+  - {fileID: 886352341452786610}
+  - {fileID: 7561689861476228652}
+  - {fileID: 2998476895350704769}
+  - {fileID: 2986124375678985396}
+  - {fileID: 8654784223959767683}
+  - {fileID: 5763887496621295574}
+--- !u!4 &2119581104
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2119581102}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 106.947975, y: 14.119692, z: 2.058009}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 13
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2134306575
 GameObject:
   m_ObjectHideFlags: 0

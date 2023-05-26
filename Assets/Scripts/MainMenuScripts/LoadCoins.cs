@@ -5,10 +5,8 @@ using UnityEngine.UI;
 
 public class LoadCoins : MonoBehaviour
 {
-    private int Coins;
+    public int Coins;
     private Text coinText;
-    
-
     void Start()
     {
         Coins = PlayerPrefs.GetInt("Coins", 0);
